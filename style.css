@@ -233,3 +233,28 @@ body {
     width: 86vw;
   }
 }
+
+/* ══════════════════════════
+   CONFETTI
+══════════════════════════ */
+.confetti-piece {
+  position: fixed;
+  width: 10px;
+  height: 14px;
+  border-radius: 2px;
+  opacity: 0;
+  pointer-events: none;
+  z-index: 200;
+  animation: confetti-fall 2.5s ease-in forwards;
+}
+
+@keyframes confetti-fall {
+  0% {
+    opacity: 1;
+    transform: translateY(0) rotate(0deg);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(100vh) rotate(720deg);
+  }
+}
