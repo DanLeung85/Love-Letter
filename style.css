@@ -4,6 +4,13 @@
   padding: 0;
 }
 
+@font-face {
+  font-family: "Invulnerable";
+  src: url("InvulnerableBB-Bold.woff2") format("woff2");
+  font-weight: bold;
+  font-style: normal;
+}
+
 /* body {
   min-height: 100vh;
   font-family: "Poppins", system-ui, sans-serif;
@@ -222,7 +229,7 @@ body {
   border: none;
   background: linear-gradient(135deg, #ff7aac, #ff5a92);
   color: white;
-  font-family: "Libre Caslon Text", system-ui, serif;
+  font-family: "Invulnerable", serif;
   font-size: 1rem;
   font-weight: 700;
   padding: 15px 44px;
