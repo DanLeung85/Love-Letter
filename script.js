@@ -23,15 +23,15 @@ function launchConfetti() {
       // Alternate launching from left and right sides
       const fromLeft = Math.random() < 0.5;
       el.style.left = fromLeft
-        ? `${Math.random() * 30}vw` // left side
+        ? `${Math.random() * 40}vw` // left side
         : `${70 + Math.random() * 30}vw`; // right side
 
       el.style.top = `${Math.random() * 40}vh`; // varies vertically
       el.style.background =
         confettiColors[Math.floor(Math.random() * confettiColors.length)];
-      el.style.width = `${6 + Math.random() * 14}px`;
+      el.style.width = `${6 + Math.random() * 20}px`;
       el.style.height = `${10 + Math.random() * 15}px`;
-      el.style.animationDuration = `${1.0 + Math.random() * 1.5}s`;
+      el.style.animationDuration = `${0.7 + Math.random() * 1.2}s`;
       el.style.animationDelay = `${Math.random() * 0.6}s`;
 
       document.body.appendChild(el);
