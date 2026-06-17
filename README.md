@@ -1,5 +1,5 @@
 # 💌 Love Letter
-![Love Letter Preview](img/background.png)
+![Love Letter Preview](img/banner.png)
 
 An interactive love letter website featuring an animated envelope, a smooth letter reveal, and a confetti celebration effect. This project was created to turn a simple message into a memorable digital experience using front-end web technologies.
 
